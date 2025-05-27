@@ -5,15 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta tags="description" content="A simple HTML website with navigation and little to no styling.">
 <meta name="keywords" content="HTML, website">
+<style>
+    body {
+        background-color: lightslategray; color: black; margin: 0px;
+    }
+    div#pages {
+        background-color: lightseagreen; size: 150px; width: 100%;
+    }
+    button {
+        background-color:lightgray;
+    }
+    nav button a {
+        text-decoration: none;
+        color: black;
+    }
+</style>
 </head>
 
-<body style="background-color: lightslategray; color: black;">
-<div style="background-color: lightseagreen; size: 150px; width: 100%">
+<body">
+<div id="pages">
     <nav style="text-align:center; padding: 10px; color:black;">
-        <button style="background-color:lightgray;"><a style="color: black;" href="Homepage.html">Home<a></button>
-        <button style="background-color:lightgray;"><a style="color: black;" href="Projects.html">Projects</a></button>
-        <button style="background-color:lightgray;"><a style="color: black;" href="Articles.html">Articles</a></button>
-        <button style="background-color:lightgray;"><a style="color: black;" href="Contact.html">Contact</a></button>
+        <button href="Homepage.html">Home<a></button>
+        <button href="Projects.html">Projects</a></button>
+        <button href="Articles.html">Articles</a></button>
+        <button href="Contact.html">Contact</a></button>
     </nav>
 </div>
 <h1 style="text-align:center">Basic HTML Website - Homepage</h1>
